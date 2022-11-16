@@ -258,7 +258,7 @@ class TestCases(unittest.TestCase):
         self.assertEqual(len(listings), 20)
         # check that the variable you saved after calling the function is a list
         self.assertEqual(type(listings), list)
-        # check that each item in the list is a tuple
+        # check that each item in the list is a tuple!
         for i in listings:
             self.assertEqual(type(i), tuple)
 
